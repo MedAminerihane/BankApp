@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guillotine_background_dark"
+    android:orientation="vertical"
+    tools:context="myapp.bank.sos.banquetunisie.Accueil"
+   >
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetStart="0dp"
+        android:elevation="0dp"
+
+        style="@style/Toolbar">
+
+
+        <ImageView
+            android:id="@+id/content_hamburger"
+            style="@style/ImageView.Hamburger"
+            android:src="@drawable/ic_menu_90" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Menu"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/guillotine_item_text_size" />
+
+
+
+    </android.support.v7.widget.Toolbar>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+        <Button
+android:id="@+id/btn_dab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#FF6060"
+            android:drawableTop="@drawable/atmr"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="DAB"
+            android:textColor="#331E1E"
+            android:layout_weight="1"/>
+        <Button
+android:id="@+id/btn_agence"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFCC5F"
+            android:drawableTop="@drawable/bank"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="Agences"
+            android:textColor="#292736"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btn_devise"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#302D3E"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/change"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="Devise"
+            android:textColor="#24B9C9"
+            />
+        <Button
+            android:id="@+id/btn_reclamtion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4E4C64"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/reclam"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="Recalamation"
+            android:textColor="#EDBF5A"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+      >
+        <Button
+            android:id="@+id/simule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Simulation"
+            android:layout_gravity="center"
+            android:padding="@dimen/fab_margin"
+            android:layout_margin="@dimen/name"
+            android:background="@color/accentColor"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+</FrameLayout>

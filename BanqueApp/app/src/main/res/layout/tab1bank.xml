@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="@dimen/fab_margin"
+    android:paddingRight="@dimen/fab_margin"
+    android:paddingTop="@dimen/fab_margin"
+    android:paddingBottom="@dimen/fab_margin"
+    android:background="@color/list_divider"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/list_bank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:divider="@color/list_divider"
+        android:dividerHeight="4dp"
+        android:listSelector="@drawable/list_row_selector"
+        android:scrollbars="none">
+
+    </ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#3F3C51</color>
+    <!--   darker variant for the status bar and contextual app bars -->
+    <color name="primaryColorDark">#3F3C51</color>
+    <color name="accentColor">#FF6060</color>
+    <!--   theme UI controls like checkboxes and text fields -->
+    <color name="guillotine_background">#3F3C51</color>
+    <color name="guillotine_background_dark">#3F3C51</color>
+    <color name="selected_item_color">#FFFFFF</color>
+    <color name="list_divider">#f4f4f4</color>
+    <color name="list_row_start_color">#fbfbfb</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#c1c3c5</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="tabsScrollColor">#004D40</color>
+    <color name="fontColor">#32dc5491</color>
+    <color name="blackcolor">#000000</color>
+    <color name="Greycolor">#F0F0F0</color>
+    <color name="DarkBlue">#19586d</color>
+    <color name="DarkGrey">#424242</color>
+
+    <color name="Red">#f92323</color>
+    <color name="Green">#009900</color>
+
+</resources>

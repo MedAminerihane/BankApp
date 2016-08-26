@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SoS Bank</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab1Dab">Liste des Dab</string>
+    <string name="tab2Dab">Dab Sur Carte</string>
+    <string name="tab1Bank">Liste des Agences</string>
+    <string name="tab2Bank">Agences Sur Carte</string>
+    <string name="MAP_API_KEY">AIzaSyBHQC-EF_DcXbUDx2jilMp_AETkCvWrzu0</string>
+
+
+    <string-array name="creditType">
+        <item>Credit de consommation</item>
+
+    </string-array>
+</resources>

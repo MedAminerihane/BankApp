@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="myapp.bank.sos.banquetunisie.CurrencyActivity"
+    android:background="#3F3C51"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+  >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <Spinner
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+
+        />
+
+   <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/textv"
+       android:textColor="@color/cpb_white"
+       android:textColorHighlight="#FF6060"
+       android:textColorLink="#FF6060"
+       android:drawableBottom="#FF6060"
+       />
+
+
+
+    <Spinner
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        />
+
+
+
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/cpb_white"
+        android:padding="@dimen/fab_margin"
+        android:textSize="18dp"
+        android:background="#FFBF00"
+        app:cpb_textComplete="Conversion Succeed"
+        app:cpb_textError="Conversion Failed"
+        app:cpb_textIdle="Convert Amount"
+        app:cpb_selectorIdle="@drawable/idle_state_selector"        />
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/textresult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:textColor="#FFBF00"
+            android:textColorHint="#FFBF00"
+            android:textSize="70dp"
+            android:gravity="top|center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
